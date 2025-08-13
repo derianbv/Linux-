@@ -34,7 +34,10 @@ podemos concatenarlas así:
   frase1 || frase2 
 
 4. La salida del la primera frase tirala a la senguda frase: 
-  frase1 > frase2 
+  frase1 > archivo.txt (solo se puede pasar a archivo, > sobre escribe y >> pasa al final)
+  para pasar a otra frase se usan los pipeLines:   frase1 | frase2 
+
+
 
 ALIAS: -----------------------------------------------------------------------------------------
 son partes de el archivo congif de Linux que cambian comandos completos por versiones reducidas. 
