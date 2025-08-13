@@ -63,4 +63,5 @@ COMANDOS: ----------------------------------------------------------------------
 15. top: muestra procesos del computador , kill: mata al proceso que querramos terminar, le pasamos su numero. 
 16. curl: revisar su archivo propio 
 17. grep: hace find en la carpeta actual pero con un filto, ver en su archivo propio. 
+18. history: muestra todos los comandos EXITOSOS que he usado (solo los comandos, no sus salidas) 
 
