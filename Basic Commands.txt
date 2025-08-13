@@ -1,3 +1,8 @@
 ALIAS: -----------------------------------------------------------------------------------------
 son partes de el archivo congif de Linux que cambian comandos completos por versiones reducidas. 
 Ejemplo: (ls -lsh) == ll
+
+
+COMANDOS: -----------------------------------------------------------------------------------------
+1. ll: enlista todos los archivos incluyendo los escondidos (.algo) y su peso. 
+2. cp: copia los archivos 
