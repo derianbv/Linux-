@@ -1,7 +1,7 @@
 ATAJOS DE TECLADO: 
 CTR+E = ir al final de la línea.
 CTR+A = ir al inicio de la línea.
-
+CTR+R = me sale un buscador en donde puedo escribir para encontrar el ultimo comando que use, PUEDO USARLO LAS VECES QUE SEA 
 
 
 **** INTERPRETACION DE LINUX: ****
