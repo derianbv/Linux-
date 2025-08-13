@@ -62,4 +62,5 @@ COMANDOS: ----------------------------------------------------------------------
 14. find carpeta -iname "archivo*": busca en carpet un archivo que empieze por archivo 
 15. ps -fax: muestra procesos del pc, kill: mata al proceso que querramos terminar, le pasamos su numero. 
 16. curl: revisar su archivo propio 
+17. grep: filtra, ver en su archivo propio. 
 
