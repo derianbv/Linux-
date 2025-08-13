@@ -54,6 +54,8 @@ COMANDOS: ----------------------------------------------------------------------
 9. stat: me da info de un archivo. 
 10. zip directorio, unzip directorio. 
 11. zipinfo: me dice el contenido de un directorio sin descomprimirlo 
+12. sudo: da permisos de administrador. 
+
 
 
 
