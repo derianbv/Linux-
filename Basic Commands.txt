@@ -1,3 +1,15 @@
+ATAJOS DE TECLADO: 
+CTR+E = ir al final de la línea.
+CTR+A = ir al inicio de la línea.
+
+
+
+INTERPRETACION DE LINUX: 
+
+
+
+
+
 ALIAS: -----------------------------------------------------------------------------------------
 son partes de el archivo congif de Linux que cambian comandos completos por versiones reducidas. 
 Ejemplo: (ls -lsh) == ll
