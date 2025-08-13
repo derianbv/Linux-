@@ -7,6 +7,8 @@ CTR+A = ir al inicio de la línea.
 **** INTERPRETACION DE LINUX: ****
   "-": para flags de una sola letra. Eje: ls -a -b -c. Se pueden pegar: ls -abc
   "--": para flags de mas de una letra: ls --abecedario. 
+  en realidad son lo mismo: -r (o --recursive)
+
   (las cosas con "-" son flags que cambian el comportamiento de comandoPrincipal) 
   las otras cosas sin rayitas son variables que se le pasan al comandoPrincipal 
 
@@ -30,13 +32,20 @@ podemos concatenarlas así:
 
 3. Una si la frase anterior NO funcionó: 
   frase1 || frase2 
-    
+
+4. La salida del la primera frase tirala a la senguda frase: 
+  frase1 > frase2 
 
 ALIAS: -----------------------------------------------------------------------------------------
 son partes de el archivo congif de Linux que cambian comandos completos por versiones reducidas. 
-Ejemplo: (ls -lsh) == ll
+Ejemplo: (ls -alh) == ll
 
 
 COMANDOS: -----------------------------------------------------------------------------------------
 1. ll: enlista todos los archivos incluyendo los escondidos (.algo) y su peso. 
-2. cp: copia los archivos 
+2. cp: copia los archivos.  
+3. mkdir: crea una carpeta. 
+4. > "nombreArchivo.txt": es como touch "nombreArchivo.txt"
+5. rm: remueve un archivo. 
+  rm -rf carpeta/: borra recursivamente las carpetas (es decir todas las capertas que tenga dentro, sin -r entonces solo borra archivos pero no carpetas de adentro, el -f es para que no pida permisos) 
+e6. mv: mueve carpetas o directorios 
