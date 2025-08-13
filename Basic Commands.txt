@@ -48,4 +48,13 @@ COMANDOS: ----------------------------------------------------------------------
 4. > "nombreArchivo.txt": es como touch "nombreArchivo.txt"
 5. rm: remueve un archivo. 
   rm -rf carpeta/: borra recursivamente las carpetas (es decir todas las capertas que tenga dentro, sin -r entonces solo borra archivos pero no carpetas de adentro, el -f es para que no pida permisos) 
-e6. mv: mueve carpetas o directorios 
+6. mv: mueve carpetas o directorios 
+7. rsync -av: copia todos los archivos de una carpeta a otra. 
+8. du -sh: me dice el tamaño en bytes de una carpeta. 
+9. stat: me da info de un archivo. 
+10. zip directorio, unzip directorio. 
+11. zipinfo: me dice el contenido de un directorio sin descomprimirlo 
+
+
+
+
