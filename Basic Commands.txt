@@ -55,8 +55,7 @@ COMANDOS: ----------------------------------------------------------------------
 10. zip directorio, unzip directorio. 
 11. zipinfo: me dice el contenido de un directorio sin descomprimirlo 
 12. sudo: da permisos de administrador. 
-
-
-
+13. ncal: muestra el calendario. 
+14. find carpeta -iname "archivo*": busca en carpet un archivo que empieze por archivo 
 
 
