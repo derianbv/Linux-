@@ -1,0 +1,50 @@
+Buscar una palabra o patrón en un archivo de texto
+Ejemplo:
+grep palabra archivo.txt
+
+Buscar sin distinguir mayúsculas y minúsculas (insensible a caso)
+Ejemplo:
+grep -i palabra archivo.txt
+
+Contar el número de líneas que coinciden con el patrón
+Ejemplo:
+grep -c palabra archivo.txt
+
+Buscar recursivamente en todos los archivos de un directorio
+Ejemplo:
+grep -r palabra .
+
+Mostrar las líneas que no coinciden con el patrón (búsqueda inversa)
+Ejemplo:
+grep -v palabra archivo.txt
+
+Mostrar el número de línea junto a las líneas que coinciden
+Ejemplo:
+grep -n palabra archivo.txt
+
+Buscar solo palabras completas (no fragmentos dentro de palabras)
+Ejemplo:
+grep -w palabra archivo.txt
+
+Mostrar líneas antes o después de la coincidencia para contexto
+
+Mostrar 3 líneas después de la coincidencia:
+grep -A 3 palabra archivo.txt
+
+Mostrar 2 líneas antes de la coincidencia:
+grep -B 2 palabra archivo.txt
+
+Mostrar 4 líneas antes y después:
+grep -C 4 palabra archivo.txt
+
+Listar solo los nombres de archivos que contienen coincidencias
+Ejemplo:
+grep -l palabra *.txt
+
+Buscar usando expresiones regulares extendidas
+Ejemplo:
+grep -E 'error|fallo' archivo.log
+
+Usar colores para resaltar las coincidencias en la salida
+Ejemplo:
+grep --color=auto palabra archivo.txt
