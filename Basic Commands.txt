@@ -4,13 +4,33 @@ CTR+A = ir al inicio de la línea.
 
 
 
-INTERPRETACION DE LINUX: 
+**** INTERPRETACION DE LINUX: ****
+  "-": para flags de una sola letra. Eje: ls -a -b -c. Se pueden pegar: ls -abc
+  "--": para flags de mas de una letra: ls --abecedario. 
+  (las cosas con "-" son flags que cambian el comportamiento de comandoPrincipal) 
+  las otras cosas sin rayitas son variables que se le pasan al comandoPrincipal 
 
+  EJEMPLO: 
+  $ comandoPrincipal -f -w var1 var2 
 
+**** CONCATENACIÓN: ****
+Vamos a decir que una frase enteresa se llamará frase 1 (incluyendo sus flags -f y sus variables var) 
 
-$ comandoPrincipal 
+(comandoPrincipal -f -w var1 var2) --> frase1  
 
+entonces, podemos tener las frases que sea: frase1 ... fraseN 
 
+podemos concatenarlas así: 
+
+1. Una y después otra frase: 
+  frase1 ; frase2 
+
+2. Una si la frase anterior funcionó: 
+  frase1 && frase2 
+
+3. Una si la frase anterior NO funcionó: 
+  frase1 || frase2 
+    
 
 ALIAS: -----------------------------------------------------------------------------------------
 son partes de el archivo congif de Linux que cambian comandos completos por versiones reducidas. 
