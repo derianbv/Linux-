@@ -1,0 +1,65 @@
+Comando curl – Usos y ejemplos
+
+El comando curl es una herramienta muy versátil para transferir datos desde o hacia un servidor usando diversos protocolos como HTTP, HTTPS, FTP, etc.
+
+Usos principales del comando curl:
+
+Obtener el contenido de una página web (Solicitud GET)
+Muestra en la terminal el código HTML o el contenido de la URL solicitada.
+Ejemplo:
+curl https://www.ejemplo.com
+
+Mostrar solo las cabeceras HTTP de la respuesta
+Para inspeccionar metadatos de la respuesta sin descargar el contenido.
+Ejemplo:
+curl -I https://www.ejemplo.com
+
+Enviar datos mediante una solicitud POST (formularios o APIs)
+Puedes enviar datos en formato URL codificado (como formularios HTML).
+Ejemplo:
+curl -X POST -d "param1=valor1&param2=valor2" https://api-ejemplo.com/endpoint
+
+Enviar datos en formato JSON en una solicitud POST
+Muy útil para interactuar con APIs REST que esperan JSON.
+Ejemplo:
+curl -X POST -H "Content-Type: application/json" -d '{"clave1":"valor1","clave2":"valor2"}' https://api-ejemplo.com/endpoint
+
+Descargar un archivo y guardarlo con su nombre original
+Curl puede bajar archivos directamente desde internet.
+Ejemplo:
+curl -O https://example.com/archivo.zip
+
+Descargar un archivo y guardarlo con un nombre personalizado
+Puedes definir el nombre con -o.
+Ejemplo:
+curl -o nuevo_nombre.zip https://example.com/archivo.zip
+
+Autenticación básica en un servidor
+Para servicios que requieren usuario y contraseña.
+Ejemplo:
+curl -u usuario:contraseña https://sitio-seguro.com
+
+Usar un servidor proxy para realizar la solicitud
+Si estás detrás de un proxy, puedes indicarlo así.
+Ejemplo:
+curl -x proxyserver:puerto https://ejemplo.com
+
+Guardar y enviar cookies para mantener sesiones
+Útil para autenticaciones y mantener estado.
+Ejemplo:
+curl -c cookies.txt -b cookies.txt https://ejemplo.com
+
+Ignorar errores de certificado SSL
+Para sitios con certificados no válidos o autofirmados.
+Ejemplo:
+curl --insecure https://sitio-con-certificado-no-valido.com
+
+Realizar múltiples solicitudes HTTP consecutivas
+Puedes encadenar varias llamadas HTTP en un solo comando.
+Ejemplo:
+curl --data "text=Hello" https://example.com/firstPage.jsp --next https://example.com/displayResult.jsp
+
+Cambiar el agente de usuario (User-Agent)
+Para simular diferentes navegadores u orígenes.
+Ejemplo:
+curl -I https://ejemplo.com --user-agent "My Custom Browser"
