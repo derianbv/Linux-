@@ -1,0 +1,5 @@
+COMO FUNCIONA: ------------------------------------------------------------------------------------------------------------------------------
+'export miVar=Algo'
+
+Lo que hace linux es que en esa sesión voy a guardar a miVar como una variable global, pero solo viva en esa sensión, apenas se cierra se muere. 
+  Para tenerla para siempre la debo poner en el archivo de configuración de Linux: "~/.bashrc"
