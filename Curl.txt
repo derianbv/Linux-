@@ -1,3 +1,13 @@
+EPP: Interactuar con una página web. 
+
+Disección: 
+
+curl -X GET url.com -H json:31
+
+-X: para definir qué tipo de apirest pedir
+-H: para definir qué tipo de metadato vamos a manejar
+
+--------------------------------
 Comando curl – Usos y ejemplos
 
 El comando curl es una herramienta muy versátil para transferir datos desde o hacia un servidor usando diversos protocolos como HTTP, HTTPS, FTP, etc.
