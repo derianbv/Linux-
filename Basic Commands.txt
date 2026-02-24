@@ -65,3 +65,4 @@ COMANDOS: ----------------------------------------------------------------------
 17. grep: hace find en la carpeta actual pero con un filto, ver en su archivo propio. 
 18.history: muestra todos los comandos EXITOSOS que he usado (solo los comandos, no sus salidas) 
 19. source + /ruta: ejecuta codigo de archivos txt que tengan comandos shell en su interior, lo que hace source es que ejecuta estos comandos y los deja activos en esta instancia de la terminal, a diferencia que solo ejecutar el archivo sin source (lo que hace es que crea un nuevo contexto donde ejecuta y cuando termina el comando cierra ese contexto sin afectar la instancia de la terminal actual). 
+20. ps -e: puedo ver todos los procesos que tiene mi pc en cada momento
